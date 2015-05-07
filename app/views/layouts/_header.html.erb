@@ -1,0 +1,14 @@
+<% if logged_in? %>
+<header class="navbar navbar-static-top navbar-default">
+    <div class="container">
+      <ul class="navbar-nav nav">
+        <li><%= link_to "Home", root_path %></li>
+      </ul>
+      <ul class="nav navbar-nav pull-right">
+        <li id="account-link"><%= link_to current_user.name, edit_user_path(current_user) %></li>
+        <li><%= link_to "Log out", logout_path, method: "delete" %></li>
+      </ul>
+      <p class="navbar-text navbar-nav pull-right">Logged in as </p>
+  </div>
+</header>
+<% end %>

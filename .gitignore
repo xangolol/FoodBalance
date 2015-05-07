@@ -33,3 +33,10 @@ bower.json
 
 # Ignore pow environment settings
 .powenv
+
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion
+
+*.iml
+
+## Directory-based project format:
+.idea/
