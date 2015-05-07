@@ -1,6 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import "_colors.css.scss";
+@import "colors";
 
 /* mixins, variables, etc. */
 @mixin box_sizing {
