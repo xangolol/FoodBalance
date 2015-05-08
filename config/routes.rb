@@ -1,5 +1,15 @@
 Rails.application.routes.draw do
 
+  get 'expenses/new'
+
+  get 'expenses/edit'
+
+  get 'expenses/index'
+
+  get 'expenses/new'
+
+  get 'expenses/edit'
+
   root 'static_pages#home'
 
   resources :users, only: [:show, :edit, :update]

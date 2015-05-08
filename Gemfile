@@ -16,6 +16,7 @@ gem 'coffee-script-source', '1.8.0'
 # gem 'therubyracer', platforms: :ruby
 
 gem 'bootstrap-sass', '3.2.0.0'
+gem 'money-rails'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

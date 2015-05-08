@@ -1,0 +1,2 @@
+class HouseHold < Expense
+end

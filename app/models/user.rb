@@ -1,6 +1,9 @@
 class User < ActiveRecord::Base
   #callbacks
   before_save { self.email = email.downcase }
+
+  #assiociations
+  has_many :expenses
   
   #validations
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
